@@ -1,6 +1,7 @@
 .landingPage {
   font-family: "Arial", sans-serif;
-  color: #fff;background:
+  color: #fff;
+  background:
   linear-gradient(
     rgba(0, 0, 0, 0.7), 
     rgba(0, 0, 0, 0.7)
@@ -34,9 +35,11 @@
     }
 
     .ctaButton {
-      background-color: #e74c3c;
+      background-color: var(--red);
       color: #fff;
       padding: 15px 30px;
+      width: 200px;
+      margin-bottom: 10px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -44,7 +47,7 @@
       transition: background-color 0.3s ease;
 
       &:hover {
-        background-color: #c0392b;
+        background-color: var(--red);
       }
     }
   }

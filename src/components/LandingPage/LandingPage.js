@@ -25,6 +25,15 @@ const LandingPage = () => {
         >
           Pogledaj Meni
         </motion.button>
+        <motion.button
+          className={styles.ctaButton}
+          id={styles.btn}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={() => {window.location.href='/afterwork'}}
+        >
+          After Work
+        </motion.button>
       </motion.div>
 
       {/* Features Section */}
