@@ -27,16 +27,16 @@ const AfterWork = () => {
             <span className={styles.emoji}>🍻</span>
             <p>Piće dobrodošlice</p>
           </div>
-          <div className={styles.featureItem}>
+          {/* <div className={styles.featureItem}>
             <span className={styles.emoji}>🎈</span>
             <p>Program povodom otvaranja</p>
-          </div>
+          </div> */}
         </div>
-        <p>Ovog petka u znaku domaćeg:</p>
+        {/* <p>Ovog petka u znaku domaćeg:</p>
         <ul className={styles.list}>
           <li>👉 Domaća kuhinja</li>
           <li>👉 Domaća rakija</li>
-        </ul>
+        </ul> */}
         <p className={styles.ending}>
           <strong>JER VIKEND POČINJE KOD NAS 🤗</strong>
         </p>
