@@ -40,9 +40,6 @@ const Navbar = () => {
         <li>
           <a onClick={menuClick} href={'/menu'}>Meni</a>
         </li>
-        <li>
-          <a onClick={menuClick} href={'/afterwork'}>After Work</a>
-        </li>
       </ul>
     </div>
   )

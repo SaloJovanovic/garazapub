@@ -14,7 +14,6 @@ function App() {
       <Routes>
         <Route path='/' element={<LandingPage/>}></Route>
         <Route path='/menu' element={<Menu/>}></Route>
-        <Route path='/afterwork' element={<AfterWork/>}></Route>
       </Routes>
       <Footer/>
     </BrowserRouter>
